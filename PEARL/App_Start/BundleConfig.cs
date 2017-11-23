@@ -25,7 +25,6 @@ namespace PEARL
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/heroic-features.css",
                       "~/Content/site.css"));
         }
     }

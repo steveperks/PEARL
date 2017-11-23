@@ -8,7 +8,11 @@
     <mvcSiteMapNode title="About" controller="Home" action="About"/>
     
     <mvcSiteMapNode title="Contact" controller="Home" action="Contact"/>
-  
+
+    <mvcSiteMapNode title="Patient Experience" controller="Home" action="PatientExperience"/>
+
+    <mvcSiteMapNode title="Staff Experience" controller="Home" action="StaffExperience"/>
+
   </mvcSiteMapNode>
 
 </mvcSiteMap>

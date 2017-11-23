@@ -26,5 +26,15 @@ namespace PEARL.Controllers
 
             return View();
         }
+
+        public ActionResult PatientExperience()
+        {
+            return View();
+        }
+
+        public ActionResult StaffExperience()
+        {
+            return View();
+        }
     }
 }
