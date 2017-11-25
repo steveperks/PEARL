@@ -2,85 +2,47 @@
     ViewBag.Title = "Home Page";
 }
 
+<h3 style="margin-top:-10px;">Welcome to PEARL</h3>
+
+<br />
+
 <div class="alert-info" style="padding:25px; margin-bottom:25px;">
 
-    <div class="lead">Welcome to PEARL</div>
+    <p style="font-size:1.5em;">
+        "The aim of	the	PEARL project is to	improve	outcomes for patients and families by using	patient	experience	to	enhance	the	behavioural	skills	of	clinical staff in acute	care".	
+    </p>
 
-    Pearl is a project to improve patient experiences
+    <hr />
 
-</div>
-
-@*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*@
-
-<div class="alert-info col-sm-3 text-center" style="padding:25px; margin-bottom:25px;">
-
-    <h4>Patient Experience</h4>
-
-    <p>Some information</p>
-
-    <a href="~/PatientExperience" class="btn btn-primary ">Some Info</a>
-
-</div>
-
-
-<div class="col-sm-1">
-
-</div>
-
-<div class="alert-info col-sm-4 text-center" style="padding:25px; margin-bottom:25px;">
-
-    <p>Some information</p>
-
-    <a href="aaa" class="btn btn-primary ">Some Info</a>
-
-</div>
-
-<div class="col-sm-1">
-
-</div>
-
-<div class="alert-info col-sm-3 text-center" style="padding:25px; margin-bottom:25px;">
-
-    <h4>Staff Experience</h4>
-
-    <p>Some information</p>
-
-    <a href="~//StaffExperience" class="btn btn-primary ">Some Info</a>
+    <p style="font-size:1.2em;">
+        Using quantitative & qualitative study linking experiential and performance measures with iterative feedback through ethnography and behaviour change theory, PEARL will produce a <em>reflective learning framework</em> with content adaptable to local context.
+    </p>
 
 </div>
 
 @*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*@
 
-<div class="alert-info col-sm-12" style="padding:25px; margin-bottom:25px;">
+<div class="alert col-sm-12">
 
-    <h4>Some information</h4>
-
-    <p>Some information</p>
-
-    <p>Some information</p>
+    <p>
+        Pearl is a 3 year developmental project, funded by the NIHR, commissioned to collect and analyse patient experience data from Acute and Intensive medical units at hospitals in England. The project is endorsed by the UK Critical Leadership Forum and the Society of Acute Medicindes, and project team are based at the University of Birmingham, and collaborate with a number of other eminent organisations, including:
+    </p>
 
 </div>
 
 @*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*@
 
-<div class="alert-info col-sm-3 text-center" style="padding:25px; margin-bottom:25px;">
 
-    <p>Some information</p>
+<div class="alert-warning col-sm-3 text-center" style="padding:25px; margin-bottom:25px;">
 
-    <a href="aaa" class="btn btn-primary ">Some Info</a>
+    <h3>Patient Experience</h3>
+    
+    <img style="width:230px;height:140px;" src="~/Content/Images/doc001.jpg" />
 
-</div>
+    <br />
+    <br />
 
-
-<div class="col-sm-1">
-
-</div>
-
-<div class="alert-info col-sm-4 text-center" style="padding:25px; margin-bottom:25px;">
-
-    <p>Some information</p>
-
-    <a href="aaa" class="btn btn-primary ">Some Info</a>
+    <a href=@Url.Action("PatientExperience", "Home") class="btn btn-default"><i class="fa fa-book"></i> Find out more...</a>
 
 </div>
 
@@ -88,10 +50,161 @@
 
 </div>
 
-<div class="alert-info col-sm-3 text-center" style="padding:25px; margin-bottom:25px;">
+<div class="alert col-sm-4 text-center" style="padding:25px; margin-bottom:25px;">
 
-    <p>Some information</p>
+    <div class="fa fa-arrow-left fa-2x"></div>
 
-    <a href="aaa" class="btn btn-primary ">Some Info</a>
+    <br />
+
+    <h3 class="fa fa-male fa-2x"> Who's involved?</h3>
+    
+    <br />
+    <br />
+
+    <div class="fa fa-arrow-right fa-2x"></div>
 
 </div>
+
+<div class="col-sm-1">
+
+</div>
+
+<div class="alert-warning fa-border col-sm-3 text-center" style="padding:25px; margin-bottom:25px;">
+
+    <h3>Staff Experience</h3>
+
+    <img style="width:230px;height:140px;" src="~/Content/Images/doc002.jpg" />
+
+    <br />
+    <br />
+
+    <a href=@Url.Action("StaffExperience", "Home") class="btn btn-default"><i class="fa fa-book"></i> Find out more...</a>
+
+</div>
+
+@*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*@
+
+<div class="col-sm-12">
+
+    <div class="alert-warning col-sm-3 text-center" style="padding:25px; margin-bottom:25px;">
+
+        <dl>
+            <dt>Setup</dt>
+            <dd>* Develop Programme Theory</dd>
+            <dd>* Local demographic data: PAS</dd>
+            <dt>Experiential Survey data</dt>
+            <dd>* Patients & relatives</dd>
+            <dd>* Staff & trainees</dd>
+            <dt>Experiential Survey data</dt>
+            <dd>* Patients & relatives</dd>
+            <dd>* Staff & trainees</dd>
+        </dl>
+
+    </div>
+
+    <div class="col-sm-1">
+
+    </div>
+
+    <div class="alert col-sm-4 text-center" style="padding:25px; margin-bottom:25px;">
+
+        <div class="fa fa-arrow-left fa-2x"></div>
+
+        <br />
+
+        <h3 class="fa fa-check-square fa-2x"> What's happening?</h3>
+
+        <br />
+        <br />
+
+        <div class="fa fa-arrow-right fa-2x"></div>
+
+    </div>
+
+    <div class="col-sm-1">
+
+    </div>
+
+    <div class="alert-warning fa-border col-sm-3 text-center" style="padding:25px; margin-bottom:25px;">
+
+        <dl>
+            <dt>Observational data: Ethnography</dt>
+            <dd>* Topic guides linked to programme theory</dd>
+            <dd>* Site visits</dd>
+            <dt>Workshops</dt>
+            <dd>Develop Reflective Learning Framework</dd>
+        </dl>
+
+    </div>
+
+</div>
+
+@*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*@
+
+<div class="alert-warning fa-border col-sm-3 text-center" style="padding:25px; margin-bottom:25px;">
+
+    <p class="fa fa-building fa-2x"> NHS Trusts</p>
+
+    <br />
+    <br />
+
+    <table class="table table-bordered">
+        <tr>
+            <td>University Hospitals Birmingham</td>
+        </tr>
+        <tr>
+            <td>Newcastle Upon Tyne</td>
+        </tr>
+        <tr>
+            <td>Heart of England</td>
+        </tr>
+    </table>
+
+</div>
+
+<div class="col-sm-1">
+
+</div>
+
+<div class="alert col-sm-4 text-center" style="padding:25px; margin-bottom:25px;">
+
+    <div class="fa fa-arrow-left fa-2x"></div>
+
+    <br />
+
+    <h3 class="fa fa-male fa-2x"> Who's helping?</h3>
+
+    <br />
+    <br />
+
+    <div class="fa fa-arrow-right fa-2x"></div>
+
+</div>
+
+<div class="col-sm-1">
+
+</div>
+
+<div class="alert-warning fa-border col-sm-3 text-center" style="padding:25px; margin-bottom:25px;">
+
+    <p class="fa fa-building fa-2x"> Academic</p>
+
+    <br />
+    <br />
+
+    <table class="table table-bordered">
+        <tr>
+            <td>University of Birmingham</td>
+        </tr>
+        <tr>
+            <td>University of Leicester</td>
+        </tr>
+        <tr>
+            <td>University of Warwick</td>
+        </tr>
+        <tr>
+            <td>University College London</td>
+        </tr>
+    </table>
+</div>
+

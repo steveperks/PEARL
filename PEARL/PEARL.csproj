@@ -164,6 +164,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Images\doc001.jpg" />
+    <Content Include="Content\Images\doc002.jpg" />
+    <Content Include="Content\Images\doc010.jpg" />
+    <Content Include="Content\Images\Experiences.png" />
     <Content Include="Content\Images\PEARL_logo.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
