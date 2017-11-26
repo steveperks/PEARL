@@ -168,6 +168,7 @@
     <Content Include="Content\Images\doc002.jpg" />
     <Content Include="Content\Images\doc010.jpg" />
     <Content Include="Content\Images\Experiences.png" />
+    <Content Include="Content\Images\NHS_Patient_Care.jpg" />
     <Content Include="Content\Images\PEARL_logo.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
