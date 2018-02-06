@@ -5,13 +5,18 @@
 
   <mvcSiteMapNode title="Home" controller="Home" action="Index">
     
-    <mvcSiteMapNode title="About" controller="Home" action="About"/>
+    <mvcSiteMapNode title="The Pearl Collaboration" controller="Home" action="About"/>
     
     <mvcSiteMapNode title="Contact" controller="Home" action="Contact"/>
 
-    <mvcSiteMapNode title="Patient Experience" controller="Home" action="PatientExperience"/>
+    <mvcSiteMapNode title="Project Summary" controller="Home" action="ProjectSummary"/>
 
-    <mvcSiteMapNode title="Staff Experience" controller="Home" action="StaffExperience"/>
+    <mvcSiteMapNode title="Project Workstreams" controller="Home" action="ProjectWorkstreams"/>
+
+    <mvcSiteMapNode title="Workstream1" controller="Home" action="Workstream1"/>
+    <mvcSiteMapNode title="Workstream2" controller="Home" action="Workstream2"/>
+    <mvcSiteMapNode title="Workstream3" controller="Home" action="Workstream3"/>
+    <mvcSiteMapNode title="Workstream4" controller="Home" action="Workstream4"/>
 
   </mvcSiteMapNode>
 

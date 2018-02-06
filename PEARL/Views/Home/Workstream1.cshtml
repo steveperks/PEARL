@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Workstream1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 style="margin-top:-10px;"> Workstream 1 : Project Setup</h3>
+
+<img src="~/Content/Images/doc001.jpg" class="img-responsive img-rounded" />
+
+<hr />
+
+<p style="font-size:1.5em;">
+    Local Project leads at each of the Trusts are to be appointed and given an initial task of assembling a local project team. The team is to consist of medical and nursing staff from both AMUs and ICUs, patients and relatives and is to be chaired by a Trust non-Executive Director (Exec Director in one Trust). The teams will hold regular local project team meetings to share experiences and harmonise approaches to reflective learning and to discuss project progress and activity.
+</p>
+
+<p style="font-size:1.5em;">
+    Teams are also encouraged to establish a combined AMU and ICU patient and relative group to participate in the project though membership of the local project team, the focus groups and workshops, and as advisors for the development of the Reflective Learning Framework.
+</p>
+
+<p style="font-size:1.5em;">
+    To complement the experiential data collected in the later workstreams, Trust-level metrics will be accessed from the Health and Social Care Information Centre and other publicly available NHS databases. As part of project set-up local project leads will work with Trust informatics Departments to access locally held data on unit-specific performance (for example, complaints rates and pressure ulcer rates; and delayed discharges or out-of-hours discharges from the locally-held repository for the Intensive Care National Audit and Research Centre care case mix programme).
+</p>
+
+<br />
+<hr />
+
+<a href=@Url.Action("Workstream2", "Home") class="btn btn-primary"><i class="fa fa-book"></i>Experimental Survey</a>
+<a href=@Url.Action("Workstream3", "Home") class="btn btn-primary"><i class="fa fa-book"></i>Ethnographic data collection</a>
+<a href=@Url.Action("Workstream4", "Home") class="btn btn-primary"><i class="fa fa-book"></i>Reflective Learning Framework</a>
+
+<hr />
+

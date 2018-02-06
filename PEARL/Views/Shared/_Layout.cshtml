@@ -50,21 +50,25 @@
 
             <div class="navbar-collapse collapse">
 
-                    <ul class="nav navbar-nav navbar-right" style="margin-right:5px;">
+                <ul class="nav navbar-nav navbar-right" style="margin-right:5px;">
 
-                        <li><a href=@Url.Action("Index", "Home")><span class="fa fa-home fa-lg" style="color:#005EB8"></span> Home</a></li>
+                    <li><a href=@Url.Action("Index", "Home")><span class="fa fa-home fa-lg" style="color:#005EB8"></span> Home</a></li>
 
-                        <li><a href=@Url.Action("About", "Home")><span class="fa fa-info-circle fa-lg" style="color:#005EB8"></span> About Pearl</a></li>
+                    <li><a href=@Url.Action("ProjectSummary", "Home")><span class="fa fa-home fa-lg" style="color:#005EB8"></span> ProjectSummary</a></li>
 
-                        <li><a href=@Url.Action("Contact", "Home")><span class="fa fa-handshake-o fa-lg" style="color:#005EB8"></span> Contact Us</a></li>
+                    <li><a href=@Url.Action("ProjectWorkstreams", "Home")><span class="fa fa-home fa-lg" style="color:#005EB8"></span> ProjectWorkstreams</a></li>
 
-                    </ul>
+                    <li><a href=@Url.Action("About", "Home")><span class="fa fa-info-circle fa-lg" style="color:#005EB8"></span> The Pearl Collaboration</a></li>
+
+                    <li><a href=@Url.Action("Contact", "Home")><span class="fa fa-handshake-o fa-lg" style="color:#005EB8"></span> Contact Us</a></li>
+
+                </ul>
             </div>
 
         </div>
 
         <hr />
-
+    
 
     </div>
 
@@ -88,7 +92,7 @@
         <div class="visible-lg visible-md hidden-sm hidden-xs">
 
             <div class="text-center">
-                &copy; @DateTime.Now.Year University Hospitals Birmingham NHS Foundation Trust v171126
+                &copy; @DateTime.Now.Year University Hospitals Birmingham NHS Foundation Trust v180206
             </div>
 
             <hr style="border: 1px solid #a19c9c;" />

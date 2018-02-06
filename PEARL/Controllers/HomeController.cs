@@ -15,7 +15,7 @@ namespace PEARL.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Pearl Collaboration";
 
             return View();
         }
@@ -24,6 +24,40 @@ namespace PEARL.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult ProjectSummary()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult ProjectWorkstreams()
+        {
+            ViewBag.Message = "Project Workstreams";
+
+            return View();
+        }
+
+        public ActionResult Workstream1()
+        {
+            return View();
+        }
+
+        public ActionResult Workstream2()
+        {
+            return View();
+        }
+
+        public ActionResult Workstream3()
+        {
+            return View();
+        }
+
+        public ActionResult Workstream4()
+        {
             return View();
         }
 
